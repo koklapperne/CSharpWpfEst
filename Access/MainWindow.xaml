@@ -1,0 +1,45 @@
+﻿<Window x:Name="WindowAccess" x:Class="Access.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Access"
+        mc:Ignorable="d"
+        Title="Acccess:" Height="750" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Background="#FF181E36">
+    <!-- Logo, user, enviroment, organization, institution, department, role -->
+    <StackPanel x:Name="StackPanelAccess" HorizontalAlignment="Stretch" Height="650" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="398">
+        <Image x:Name="ImageLogo" Height="244" Source="Logo Template Est@0.25x.png"/>
+        <TextBox x:Name="UsernameTextBox" Width="200" Height="30" Margin="0,0,0,10" Text="Username"/>
+        <PasswordBox x:Name="PasswordBoxUserPassword" Width="200" Height="30" Margin="0,0,0,10"/>
+        <ListBox x:Name="ListBoxEnviroment" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Production</ListBoxItem>
+            <ListBoxItem>Setting</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="ListBoxOrganization" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Region Hafnia</ListBoxItem>
+            <ListBoxItem>Region Selandia</ListBoxItem>
+            <ListBoxItem>Region Borealis</ListBoxItem>
+            <ListBoxItem>Region Centrum</ListBoxItem>
+            <ListBoxItem>Region Meridies</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="ListBoxInstitution" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Institution</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="ListBoxDepartment" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Department</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="ListBoxWard" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Ward</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="ListBoxRole" Width="200" Height="30" Margin="0,0,0,10">
+            <ListBoxItem>Standard Clinical Role</ListBoxItem>
+            <ListBoxItem>Extended Clinical Role</ListBoxItem>
+            <ListBoxItem>Master Clinical Role</ListBoxItem>
+            <ListBoxItem>Standard Administrator Role</ListBoxItem>
+            <ListBoxItem>Extended Administrator Role</ListBoxItem>
+            <ListBoxItem>Master Administrator Role</ListBoxItem>
+        </ListBox>
+        <Button x:Name="ButtonLogin" Content="Login" Width="200" Height="30" Margin="0,0,0,10" Click="ButtonLogin_Click"/>
+        <Button x:Name="ButtonClose" Content="Close" Width="200" Height="30" Margin="0,0,0,10" Click="ButtonClose_Click"/>
+     </StackPanel>
+</Window>

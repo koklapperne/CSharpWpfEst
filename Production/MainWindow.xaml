@@ -1,0 +1,24 @@
+﻿<Window x:Name="MainDashBoard" x:Class="Production.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Production"
+        mc:Ignorable="d"
+        Title="Main:" Height="686.066" Width="800" Background="#FF181E36" Closing="MainDashBoard_Closing">
+    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="200" Margin="0,10,0,3">
+        <Image x:Name="ImageLogo" Height="139" Source="Icon Template Est@0.25x.png"/>
+        <Label Content="Workflow" Foreground="#FF0092F9"/>
+        <Button x:Name="ButtonView" Content="View" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonNew" Content="New" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonValidation" Content="Validation" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonPlan" Content="Plan" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonPerform" Content="Perform" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonReport" Content="Report" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonConference" Content="Conference" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Button x:Name="ButtonSign" Content="Sign" Width="170" Height="30" Margin="20,0,0,10"  Background="#FF181E36" Foreground="#FF0092F9" HorizontalContentAlignment="Left" BorderThickness="0"/>
+        <Label Content="User" Foreground="#FF0092F9"/>
+        
+    </StackPanel>
+
+</Window>
