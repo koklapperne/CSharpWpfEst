@@ -2,9 +2,9 @@
 
 ```
 At work:
-$ cd "/H/Udvikling/C#"
+$ cd "/H/Udvikling/CSharpWpf"
 At home:
-$ cd "/D/Programmering/C#"
+$ cd "/D/Programmering/CSharpWpf"
 $ git clone https://github.com/koklapperne/CSharpWpfEst.git
 ```
 ## Pull from the remote repository to the local repository
